@@ -17,30 +17,6 @@ h2 {
             display: inline-block;
           }
 
-.topnav {
-  background-color: transparent;
-  overflow: hidden;
-}
-
-.topnav a {
-  float: right;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: transparent;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: transparent;
-  color: red;
-}
-
-.topnav a.active {
-  background-color: transparent;
-  color: red;
-}
-
 a:link {
   color: white;
   background-color: transparent;
@@ -64,7 +40,29 @@ a:active {
   background-color: transparent;
   text-decoration: none;
 }
+.topnav {
+  background-color: transparent;
+  overflow: hidden;
+}
 
+.topnav a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: transparent;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: transparent;
+  color: red;
+}
+
+.topnav a.active {
+  background-color: transparent;
+  color: red;
+}
 .top-container {
   background-color: #f1f1f1;
   padding: 30px;
