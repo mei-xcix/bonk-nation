@@ -1,0 +1,13 @@
+body {
+          background-color: black;
+           }
+h3 {
+            font-family: Impact;
+            letter-spacing: 7px;
+            word-spacing: 2px;
+            color: white;
+            font-weight: 400;
+            font-variant: small-caps;
+            text-transform: none;
+            margin-left: 20px
+          }
