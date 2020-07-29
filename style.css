@@ -17,26 +17,28 @@ h2 {
             display: inline-block;
           }
 
-.btn-group button {
+.topnav {
   background-color: transparent;
-  border: none; 
-  color: white; 
-  padding: 10px 24px; 
-  cursor: pointer; 
-  float: right; 
-
-.btn-group:after {
-  content: "";
-  clear: both;
-  display: table;
+  overflow: hidden;
 }
 
-.btn-group button:not(:last-child) {
-  border-right: none; 
+.topnav a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: transparent;
+  font-size: 17px;
 }
 
-.btn-group button:hover {
-  background-color: red;
+.topnav a:hover {
+  background-color: transparent;
+  color: red;
+}
+
+.topnav a.active {
+  background-color: transparent;
+  color: red;
 }
 
 a:link {
