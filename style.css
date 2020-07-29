@@ -1,6 +1,10 @@
 body {
           background-color: black;
            }
+#main {
+  width: 200px;
+  border: 1px dotted black;
+}
 
 h2 {
             font-family: Impact;
@@ -10,7 +14,35 @@ h2 {
             font-variant: small-caps;
             text-transform: none;
             margin-left: 20px
+            display: inline-block;
           }
+
+button {
+  float: right;
+}
+
+.btn-group button {
+  background-color: transparent;
+  border: none; 
+  color: white; 
+  padding: 10px 24px; 
+  cursor: pointer; 
+  float: left; 
+
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; 
+}
+
+.btn-group button:hover {
+  background-color: red;
+}
+
 a:link {
   color: white;
   background-color: transparent;
