@@ -17,17 +17,13 @@ h2 {
             display: inline-block;
           }
 
-button {
-  float: right;
-}
-
 .btn-group button {
   background-color: transparent;
   border: none; 
   color: white; 
   padding: 10px 24px; 
   cursor: pointer; 
-  float: left; 
+  float: right; 
 
 .btn-group:after {
   content: "";
