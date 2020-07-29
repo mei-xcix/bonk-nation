@@ -1,6 +1,17 @@
 body {
           background-color: black;
            }
+h2:after {
+    content: '';
+    border-top: 2px solid;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+}
+
+h2:after {
+    margin: 0 0 0 20px;
+}
+
 h2 {
             font-family: Impact;
             letter-spacing: 7px;
